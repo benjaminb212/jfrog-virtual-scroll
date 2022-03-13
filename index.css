@@ -1,0 +1,33 @@
+.container {
+  height: calc(50px * 5000);
+  width: 500px;
+}
+
+.height-limiter {
+  max-height: 500px;
+  width: fit-content;
+  overflow-y: scroll;
+  border: 1px solid grey;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  width: 100%;
+  height: 49px;
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+
+.image {
+  height: 49px;
+  width: 49px;
+}
+
+.text {
+  margin-left: 30px;
+}
