@@ -4,4 +4,4 @@ serving commands:
 
 python3 -m http.server
 
-npx server
+npx serve
